@@ -1,0 +1,389 @@
+Delivered-To: zaupperbence@gmail.com
+Received: by 2002:a05:612c:2617:b0:4b4:237f:882f with SMTP id gn23csp2477438vqb;
+        Mon, 27 Jan 2025 05:58:46 -0800 (PST)
+X-Forwarded-Encrypted: i=3; AJvYcCUiPaPBJ+sTUybgFtmaG10eRLD0abXG6cQdJl16z5WImrTK08Am5gtn40L2hUFcMB0eeXVZlMwqcCxFPoM=@gmail.com
+X-Google-Smtp-Source: AGHT+IE0oZMw2kqe4Zhc2dA88/8smCN5MHu8TW7HLgO+4Bcm1ABpVPrWXrWFvtXyprTiST6kSGIx
+X-Received: by 2002:a05:620a:2408:b0:7b7:106a:19b7 with SMTP id af79cd13be357-7be6323b53emr6556739885a.18.1737986326609;
+        Mon, 27 Jan 2025 05:58:46 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1737986326; cv=pass;
+        d=google.com; s=arc-20240605;
+        b=QWrl9w2zVrarr+tNnJWet4kOYYpOspAcI2zCmZ6b1abpi3Tv4fMfHPeCu7pCYPxQeV
+         5Mg2uwIiR3AeJ6zyY09ZJkreJN5gCH5p+BeEoy79MkP8IcvsY3O2U54eLGrNnN0c02+v
+         n2BiSsaCFqLok8MKCyRZRiZ+5Ij8DbDeRGuRYCeL2Kjw21uj3MazsMpTLlY3rkCCjSef
+         URoqOxhrmbbmtBkVevLpeTsBsEzl69s2+5TEk+efzkjY7LAn9sTXjnFcEdg8WY6yV5j9
+         pXA6obpMfLXi9B6SD7wAG39xM50tv8XZl5BlD1cbgJvZYNFjAZpFz/cXfwXy1omYhgUc
+         g/pA==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=mime-version:msip_labels:content-language:accept-language
+         :message-id:date:thread-index:thread-topic:subject:to:from
+         :dkim-signature;
+        bh=vu98puyeBewhF2labWvj4NCDkx+rXmr1ZgHmF8cc60Y=;
+        fh=b3vnLmnglfc4Q2zfaLvIn/NOQXBFhOjJwoHNHzvS0OQ=;
+        b=crVoLs2djBprZotraiRpNKvQzmJ/ST9oXT5aHRcWxpj8m1iMzZHYCx6rgF2Bvmeyva
+         FHYThX1EzOjgjsGBN/AQ9iF6BpGG2ZmnLhjQELKNEIQG1d0bm4+0/uuS7F/dioTGfo6X
+         COs69O4YF+0Om+672/LAlJKz8JXye/I4PIeSsKreZYSww5TO+7FmSzlwSTOlD3BzF6cg
+         xib7mx7XU+yjF+TZyEJt5CBeE6HJE2yZSZJ6hvVSUsCiUdCchfyvCqGkcJs2aVTkdg+Q
+         qty3bwoJG2eERPliYr1qEFXEH6Ozt7LVUS58KvSgovITe4+R1166w3TUnlbsnlawbPC2
+         5jyQ==;
+        dara=google.com
+ARC-Authentication-Results: i=2; mx.google.com;
+       dkim=pass header.i=@acornlife.ie header.s=selector1 header.b="qv9WXV/0";
+       arc=pass (i=1 spf=pass spfdomain=acornlife.ie dkim=pass dkdomain=acornlife.ie dmarc=pass fromdomain=acornlife.ie);
+       spf=pass (google.com: domain of jennifer.loftus@acornlife.ie designates 52.45.214.19 as permitted sender) smtp.mailfrom=jennifer.loftus@acornlife.ie;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=acornlife.ie
+Return-Path: <jennifer.loftus@acornlife.ie>
+Received: from cloud-out-d.spamtitan.com (cloud-out-d.spamtitan.com. [52.45.214.19])
+        by mx.google.com with ESMTPS id d75a77b69052e-46e66ba3804si98292041cf.489.2025.01.27.05.58.46
+        for <zaupperbence@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Mon, 27 Jan 2025 05:58:46 -0800 (PST)
+Received-SPF: pass (google.com: domain of jennifer.loftus@acornlife.ie designates 52.45.214.19 as permitted sender) client-ip=52.45.214.19;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@acornlife.ie header.s=selector1 header.b="qv9WXV/0";
+       arc=pass (i=1 spf=pass spfdomain=acornlife.ie dkim=pass dkdomain=acornlife.ie dmarc=pass fromdomain=acornlife.ie);
+       spf=pass (google.com: domain of jennifer.loftus@acornlife.ie designates 52.45.214.19 as permitted sender) smtp.mailfrom=jennifer.loftus@acornlife.ie;
+       dmarc=pass (p=QUARANTINE sp=QUARANTINE dis=NONE) header.from=acornlife.ie
+Received: from localhost (localhost [127.0.0.1])
+	by cloud-out-d.spamtitan.com (Postfix) with ESMTP id 64139260EF0
+	for <zaupperbence@gmail.com>; Mon, 27 Jan 2025 13:58:46 +0000 (UTC)
+X-Virus-Scanned: by SpamTitan at ec2.internal
+Received: from cloud-out-d.spamtitan.com (localhost [127.0.0.1])
+	by cloud-out-d.spamtitan.com (Postfix) with ESMTP id 9402C260678
+	for <zaupperbence@gmail.com>; Mon, 27 Jan 2025 13:58:43 +0000 (UTC)
+Authentication-Results: cloud-out-d.spamtitan.com;
+        dkim=pass (1024-bit rsa key sha256) header.d=acornlife.ie
+          header.i=@acornlife.ie header.b=qv9WXV/0 header.a=rsa-sha256
+          header.s=selector1 x-bits=1024;
+        x-trusted-ip=pass
+Received: from EUR05-DB8-obe.outbound.protection.outlook.com (mail-db8eur05lp2109.outbound.protection.outlook.com [104.47.17.109])
+	by cloud-out-d.spamtitan.com (Postfix) with ESMTPS id 20912260747;
+	Mon, 27 Jan 2025 13:58:42 +0000 (UTC)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector10001; d=microsoft.com; cv=none;
+ b=JKwzld1h0Zlxjefi+jQWR70N+RnN9JDsB361KEs8VF6T57dgD3YYOKe07b7UjJogey/S0Xg9MjXoYGEI5TR3eBoQ/5xbc3txuzO/ErAu4WrD++shNOWkj1UnaKmnWKb1PxisSpgWebBbESPjWJc3wuU3bUU2laIA7KD6qL1FiGmXDmlSaFkDDCbDZsV7qC8ZWtsJO05RaSJRp1NXQf/mngj38jyoa8Ep3D1KjchLp4E1mg/YV4QktDIr/E5y8RWhYwJi7POmTbYMdN4JbRc2P3gAeGcRCX3lb4Vhd1hiLjBoKyVZSgtvAR3Frqf6h4RPLZbejPBQbtnBWSVUoS3VJw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector10001;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=vu98puyeBewhF2labWvj4NCDkx+rXmr1ZgHmF8cc60Y=;
+ b=D5o21hIDAGRTljaiFvnvQjw4dSk3xSqKgd++bFFg81t28W5TPlKmyTeGacUlsAU743kkA/ClYtaoGx/loejnfEXjdWjTetD3TxkzoELY1SMU5rS0PdMC+cHMcpo8F86htCkKEQ6tp4zLAcxwpwrHkF74USYX/uL5SKw7pdDMyOeA9tfGFBWrpfRHrw4ZCZIgxiCH8iSf+EsyaenpW8Ev2s2bv9srMGfbtslxxa/lrqBPG7dbgBwECL9gBfFN/qjhuui6r7ZuWz1x4fMrNwUN+ln7j6V7T0JDW6Uy1ydG4EsLnqoVG7JKD1LvLNYss+5En5ViiIhJ5mhMImnghA/50A==
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=acornlife.ie; dmarc=pass action=none header.from=acornlife.ie;
+ dkim=pass header.d=acornlife.ie; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=acornlife.ie;
+ s=selector1;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-SenderADCheck;
+ bh=vu98puyeBewhF2labWvj4NCDkx+rXmr1ZgHmF8cc60Y=;
+ b=qv9WXV/0uW3C9Q8WZP/ir2Ko7ylrUu9md5GOjFxsM9vPfotC48AuyYVyZMlIPSjWVjNg6K2QXhEJ6cijNbEiuhdZtyY4dblhOuzD4ecl0zxv8fWIwgkvOAYmHpawki9Z2VRRCruKt7wvXwNwrgD/S7AbgfqEe9jCa7h8CsGoCVQ=
+Received: from DU4PR04MB10983.eurprd04.prod.outlook.com (2603:10a6:10:58c::9)
+ by PA4PR04MB7935.eurprd04.prod.outlook.com (2603:10a6:102:b8::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.8377.22; Mon, 27 Jan
+ 2025 13:58:40 +0000
+Received: from DU4PR04MB10983.eurprd04.prod.outlook.com
+ ([fe80::3527:4a1:336f:37e5]) by DU4PR04MB10983.eurprd04.prod.outlook.com
+ ([fe80::3527:4a1:336f:37e5%7]) with mapi id 15.20.8377.021; Mon, 27 Jan 2025
+ 13:58:40 +0000
+From: Jennifer Loftus <jennifer.loftus@acornlife.ie>
+To: "iris.berthier@greenval-insurance.ie"
+	<iris.berthier@greenval-insurance.ie>, "eimear.oneill@hotmail.com"
+	<eimear.oneill@hotmail.com>, Zaupper Bence <zaupperbence@gmail.com>, Alan
+ McDonagh <Alan.McDonagh@milliman.com>, =?iso-8859-1?Q?McGuire=2C_Gr=E1inne?=
+	<grainne.mcguire@optum.com>, Brian Cunningham <bjcunningham@gmail.com>, Ger
+ Bradley <ger@about-recruitment.ie>, "Cecilia.Cheuk@wtwco.com"
+	<Cecilia.Cheuk@wtwco.com>, "orla.crawley@reitighltd.com"
+	<orla.crawley@reitighltd.com>, Denise Collins <niseyhome@yahoo.ie>,
+	"Shauna.Rowley@mercer.com" <Shauna.Rowley@mercer.com>, "deoregan@hotmail.com"
+	<deoregan@hotmail.com>, "siobhanobyrne@gmail.com" <siobhanobyrne@gmail.com>,
+	"lconnolly108@gmail.com" <lconnolly108@gmail.com>,
+	"nashechibanda@hotmail.co.uk" <nashechibanda@hotmail.co.uk>,
+	"Catherine.Costello@canadalifere.ie" <Catherine.Costello@canadalifere.ie>,
+	"caolanbarrett@hotmail.com" <caolanbarrett@hotmail.com>,
+	"amcdonnell1997@gmail.com" <amcdonnell1997@gmail.com>, Marie Finn
+	<Marie.Finn@acornlife.ie>, Eimear <Eimear.ONeill@CanadaLife.de>, Laura
+ Connolly <lauralovesprince@gmail.com>, Sean <Sean.Quinlivan@canadalifere.ie>
+Subject: Free Online Learning Material on Kaggle
+Thread-Topic: Free Online Learning Material on Kaggle
+Thread-Index: AQHbcMNCEiaNRfSmK0a6OrolTswdzg==
+Date: Mon, 27 Jan 2025 13:58:40 +0000
+Message-ID:
+ <DU4PR04MB10983C361D32ADE6B0C1A5D6F81EC2@DU4PR04MB10983.eurprd04.prod.outlook.com>
+Accept-Language: en-US, en-IE
+Content-Language: en-US
+X-MS-Has-Attach:
+X-MS-TNEF-Correlator:
+msip_labels:
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acornlife.ie;
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DU4PR04MB10983:EE_|PA4PR04MB7935:EE_
+x-ms-office365-filtering-correlation-id: 102ffd48-7d4b-44e6-9c78-08dd3edab460
+x-ms-exchange-senderadcheck: 1
+x-ms-exchange-antispam-relay: 0
+x-microsoft-antispam:
+ BCL:0;ARA:13230040|366016|7416014|376014|69100299015|1800799024|38070700018|13003099007|921020|8096899003;
+x-microsoft-antispam-message-info:
+ =?iso-8859-1?Q?/mH3fI+Rak6bHyY42VKD/wOgpYdnkmazlNHC6kUR9RgeFlrkHT50TXAKuK?=
+ =?iso-8859-1?Q?eHyRU0d3sZnM+79cMEoIFZtcfda8KBNTf4z3tOO2TNrzv8egUInj73LS2X?=
+ =?iso-8859-1?Q?2fj0xIk8IwcCQ1ltYyrreHtSbf4pMAeVppvrRXBC4px/ArtsdLD6f94pNS?=
+ =?iso-8859-1?Q?8sTgnHS4j+a7r5j9tMt8EYxWxcjmBqwJxnSrPTmEn0Lfh3IATPpN8R5cvU?=
+ =?iso-8859-1?Q?qVW2ToYGRXRleyim65r+bi4mxijVoxj68JP0Umj+zzOtwjehFbdlDkFdkq?=
+ =?iso-8859-1?Q?DTOgC/66N6q/pJsAt/yzPURSxljjrDgz0gWiG6e/yhcgQufwvx39nADp5R?=
+ =?iso-8859-1?Q?qjCO4jtk7OeNxI1teAtHlQYbqS/jPGybWOBzOpYbB72uF3qiaJ912/Apf8?=
+ =?iso-8859-1?Q?eg8NGzoFoNR6kz/MMUWapC85Jd+kcdxjr2TR6vjPjg6JoWGkSMXn1QH1tm?=
+ =?iso-8859-1?Q?4cYOjAZqLkrbx6c8nP0uJnrYRnX2aSd1wF8By37IyyG046324pCO/kW6qY?=
+ =?iso-8859-1?Q?RElkn8DFL83Z+7ACtuc4FDBL8a6DQw6IMEFxIQbnIU214e7wAK3fI4eOu3?=
+ =?iso-8859-1?Q?1v8ekwCYTIQDukS3ubgxiiyD5zyC2uzlYTs2iwgfo88+81XSXwikxgmWIH?=
+ =?iso-8859-1?Q?gMUkXAirJbzWCwMM57r1I/IXAx7FMqyVXoAWa2OkMb5sA8yk/Q7DP64AAQ?=
+ =?iso-8859-1?Q?cRXzAWxhM43hJs+74t86xl8Qk1ZQvOAvpltiUXXejkfPWCjBExq8ISxCwj?=
+ =?iso-8859-1?Q?V66cDtJPS6IbIP+yJK8CCCuPkDb7vS6U9OJrwJ00/GISpvpSXmZ5q7tEFp?=
+ =?iso-8859-1?Q?RIXelD1UkKezWVvQbuzPj7mi1mf8GgpjAH77KZuueFaLyHOF2iwAvVDCx4?=
+ =?iso-8859-1?Q?mGt5Mj34OIj3lFWnSnSFbD7PqmRjI4ZCKXu7V74YBBUZvAJtlk1HvStE2m?=
+ =?iso-8859-1?Q?kwzZ2gZs2K8l2HCesuv4g7OEIJagCaS3xoGEjIi1arUZ/myPMjDYNgLGUE?=
+ =?iso-8859-1?Q?kixpgnTU96YqQe+zXNTHSiNLWMa9U5EqQ1kFqsKPoCxJUjsI596KUQYFGG?=
+ =?iso-8859-1?Q?FIX4l4o1OH9YFJ3rd4XQgPRiDrZHiNCBCGM0tkGvHnQlSHKGK5L69njtip?=
+ =?iso-8859-1?Q?ZV0HJvWv5Tfym68fN95KXHsD+aGU6zi+HYbhE6uEDuIF44heA0Pp71gKLA?=
+ =?iso-8859-1?Q?lH94Wsp2l7uX8oLXC2cR6Uho9GoH9a95vL0Z4jezMffExTqqu2fcvavCfv?=
+ =?iso-8859-1?Q?ikZkPef1wFkVDasTJYq+SAU2TdYBAcFsDsnsvdP67Mba9GY6aPKukQz/jR?=
+ =?iso-8859-1?Q?JRq3FKP8sgqUS63MKC8HJAF3NkMf/lHCg+YIHes+VzFmfnYPQ/MxuAScAT?=
+ =?iso-8859-1?Q?HXSCCkqlYgIc1PuOgl/S8+irohrrKiTD3nTc669hD7p3WyQlYD7CdzX6kJ?=
+ =?iso-8859-1?Q?XOx7wvxCUu3ggkw9xfXqojOa0VKovQpEivubsw=3D=3D?=
+x-forefront-antispam-report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:DU4PR04MB10983.eurprd04.prod.outlook.com;PTR:;CAT:NONE;SFS:(13230040)(366016)(7416014)(376014)(69100299015)(1800799024)(38070700018)(13003099007)(921020)(8096899003);DIR:OUT;SFP:1102;
+x-ms-exchange-antispam-messagedata-chunkcount: 1
+x-ms-exchange-antispam-messagedata-0:
+ =?iso-8859-1?Q?nkxFLAgs9qFyq1ZJD7C3b2J0OGTS35RkSlwgqZkTXcTVPTsyD0Ew72mZfz?=
+ =?iso-8859-1?Q?rvNBs0v6VFyFELRGzc2TCSxLlZMxly5QH+nLUpyEUry9tpMRe+026TKZ5v?=
+ =?iso-8859-1?Q?DifezleGFSEpyG++TTb+OfqBj7+X6yXgbjuCwqSt8oXhBCqiqlVTWcykXe?=
+ =?iso-8859-1?Q?xlHjeRHuEb6HLyy5Dz4hYTsyRm1heS6MyWk2tV2CgLih7+jkTwGPygqjUi?=
+ =?iso-8859-1?Q?lHttt3khqVnvGmqiCktKppfyTzC+COvY9xyhhGae3lOKjn2BEgAlMvLTT0?=
+ =?iso-8859-1?Q?eOSCMO8NdgA7HpvjnQvwXrxVyCnVF49xPf/j2pRympVYwE3x+lrOHNiewO?=
+ =?iso-8859-1?Q?tDbIb1e9exeB0qJ45Y2JjPf6sH7gk4nhyJJb8jG0tWmkB2HgFBrkgABgDJ?=
+ =?iso-8859-1?Q?Ybx/uhOEepFQs/k5DaQZQJtaC/f+yovcMC8dPj2nZs+9HGuYetv1mQur67?=
+ =?iso-8859-1?Q?jE9/IJCeY0qPd3aZxXlIQW4lv01Hb0nEjkIFp1joD1XgjzzQKciZTXLPLJ?=
+ =?iso-8859-1?Q?+9PKUh7yCNah82SBwLhE1IbyuVjaBCJjJOfiGjMv9TSnoeIYlTTZ2bm2/m?=
+ =?iso-8859-1?Q?PgLM2czcFzE1XMX+0as4OS/WvP646/ZvZapzSoVENcwvuclXiFCx4dhPBZ?=
+ =?iso-8859-1?Q?cAhzRYuNpSK10ioMQF3kalyJVbPQCslwZKisJc8rzm80tPN4WAY3N4BOnl?=
+ =?iso-8859-1?Q?GwvcmD3fnVgXe7vrehmDFqpZ6kABASyvDqN2iiEl9Wihz/loLWWzLAHes3?=
+ =?iso-8859-1?Q?DrSQGl2CXMLZ8g6AhiAtZIuHFcdISuk6+hzb+YIGr9qAxW/FHSxu+y/yGp?=
+ =?iso-8859-1?Q?f81ic30Q8VlujvtO+kLlEQ6f2Wn5RUesxT5JC7508W9Mz8eAQPQCJInmId?=
+ =?iso-8859-1?Q?V2HysCfdqzO8CzPBE0wB0Iaut+8PRX494hXOyzqDBVOOHYOlPpM+zttoMG?=
+ =?iso-8859-1?Q?kUvZroDYadhxyGkxLrwwLTJQa1aiGgBo2tYRggO1aWEKI7cspySsM4oU9A?=
+ =?iso-8859-1?Q?/Lm9FyKTjz4dsMkduEws+a88xIDZmzt8BtnAfaeMROjsuu3aDa0WNegoNb?=
+ =?iso-8859-1?Q?vRhi6AzHot0+LQlktahA77X7eXxiLOM5DuVoVlRlEFfbgItSCXh8MDJLz/?=
+ =?iso-8859-1?Q?TfJNaR9tuFPX5Y+D3Dyx5ATOVCL7wCQ9+8X06mK/ZyE0VoHzYockhWs4yi?=
+ =?iso-8859-1?Q?IHBbIbuqS39qkwbMtfAkHRN09movGgVRlI0oAmieD7Sn6FSsehLHVoOonh?=
+ =?iso-8859-1?Q?IZe8VTde+jijXdkjZPGWEPq7G9mGZdwgz9kprD32k53g8k8I2oxJl+Ogzw?=
+ =?iso-8859-1?Q?zjxM43sZpTv04p2KO+a3axsuowuEQye7D6RMxQjNlU/I2HjO9k8ewx/ED3?=
+ =?iso-8859-1?Q?ADvEESKXryuHNcTfxgQjhMMyqxo5IdP7jfnwxGu1XlKF96LCUBw5lUfwIE?=
+ =?iso-8859-1?Q?ILd3oK1oKXaURuCXxyOUyMrjrllk6eWmyk0nvtO9ypaQxDljIxuCeASixg?=
+ =?iso-8859-1?Q?yT54AvNSmVK2O7RmhjLXtFY6dVf3SCy9LEjgFxsFlQtgiiMo6OnpRhUgPH?=
+ =?iso-8859-1?Q?b126hnyMvcv/GGmLOM9rhDFsUYjJX3vMrKZXocv/azyjOGPh30D48fFQIE?=
+ =?iso-8859-1?Q?9n5xOpDixu9UOwD+ucYigw2JziNsqE4ANtQYGGIK/2t4UPVtvNb816nw?=
+ =?iso-8859-1?Q?=3D=3D?=
+Content-Type: multipart/alternative;
+	boundary="_000_DU4PR04MB10983C361D32ADE6B0C1A5D6F81EC2DU4PR04MB10983eu_"
+MIME-Version: 1.0
+X-OriginatorOrg: acornlife.ie
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-AuthSource: DU4PR04MB10983.eurprd04.prod.outlook.com
+X-MS-Exchange-CrossTenant-Network-Message-Id: 102ffd48-7d4b-44e6-9c78-08dd3edab460
+X-MS-Exchange-CrossTenant-originalarrivaltime: 27 Jan 2025 13:58:40.6385
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 9c58a470-ce4d-4423-a268-483128506f42
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: 7IrZlYKl2Ves8KdF+er72xKxw7smQU//Wdx6BX52upRsBqiwYJKR+FjBi/EHTvS6BJOXW0lolfEFmGf6iElTTN3IPhLQ1Io2fQohXabxW9E=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: PA4PR04MB7935
+
+--_000_DU4PR04MB10983C361D32ADE6B0C1A5D6F81EC2DU4PR04MB10983eu_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hi all,
+
+Below is a link to free online data science learning material on Kaggle.
+
+Learn Python, Data Viz, Pandas & More | Tutorials | Kaggle<https://www.kagg=
+le.com/learn>
+
+Regards,
+Jennifer
+
+
+
+Jennifer Loftus | Executive Director | Chief Risk Officer | Head of Actuari=
+al Function | Acorn Life | St. Augustine Street | Galway
+
+T: 091 535739  |mailto:jennifer.loftus@acornlife.ie| http://www.acornlife.i=
+e<http://www.acornlife.ie/>
+
+
+
+
+[http://www.acornlife.ie/uploads/images/ALEmailBanner.jpg]
+
+Please consider the environment before printing this email.
+
+
+
+This e-mail and all information contained in it is confidential and may be
+
+legally privileged. If you are not the intended recipient, your access to t=
+his
+
+e-mail is unauthorized. Any use, dissemination, distribution, publication o=
+r
+
+copying by you of this e-mail or any of the information contained in it is
+
+prohibited and may be unlawful. The content of this e-mail and any attachme=
+nts
+
+sent with it may have been altered without the consent or knowledge of the
+
+author. If you have received this email in error please immediately phone
+
+Technical Services, Acorn Life DAC at 091-535700 and delete this e-mail fro=
+m
+
+your system. Your co-operation is appreciated.
+
+
+
+Registered in Ireland No 128945 Registered Office: St Augustine Street,
+
+Galway. Acorn Life DAC is regulated by the Central Bank of Ireland.
+
+Please see our Privacy Statement here<https://acornlife.ie/uploads//Acorn%2=
+0Life%20Privacy%20Statement%20March%2022.pdf>.
+
+--_000_DU4PR04MB10983C361D32ADE6B0C1A5D6F81EC2DU4PR04MB10983eu_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"> P {margin-top:0;margin-bo=
+ttom:0;} </style>
+</head>
+<body dir=3D"ltr">
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+Hi all,</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+Below is a link to free online data science learning material on Kaggle.</d=
+iv>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<a href=3D"https://www.kaggle.com/learn" id=3D"LPlnkOWA8f9c42ae-2b96-5e54-d=
+a9e-3320d5b1bac2" class=3D"OWAAutoLink">Learn Python, Data Viz, Pandas &amp=
+; More | Tutorials | Kaggle</a></div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+Regards,</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+Jennifer</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<div class=3D"elementToProof" id=3D"Signature">
+<p><span style=3D"color: rgb(0, 32, 96);">Jennifer Loftus | Executive Direc=
+tor | Chief Risk Officer | Head of Actuarial Function | Acorn Life | St. Au=
+gustine Street | Galway</span></p>
+<p><span style=3D"font-size: 10pt; color: rgb(31, 73, 125);">T: 091 535739&=
+nbsp; |</span><span style=3D"font-size: 10pt;"><a href=3D"mailto:jennifer.l=
+oftus@acornlife.ie" style=3D"margin-top: 0px; margin-bottom: 0px;">mailto:j=
+ennifer.loftus@acornlife.ie</a></span><span style=3D"font-size: 10pt; color=
+: rgb(31, 73, 125);">|
+</span><span style=3D"font-size: 10pt;"><a href=3D"http://www.acornlife.ie/=
+" style=3D"margin-top: 0px; margin-bottom: 0px;">http://www.acornlife.ie</a=
+></span></p>
+<p>&nbsp;</p>
+</div>
+<div class=3D"elementToProof" style=3D"font-family: Aptos, Aptos_EmbeddedFo=
+nt, Aptos_MSFontService, Calibri, Helvetica, sans-serif; font-size: 11pt; c=
+olor: rgb(0, 0, 0);">
+<br>
+</div>
+<span style=3D"font-family: Aptos, Aptos_EmbeddedFont, Aptos_MSFontService,=
+ Calibri, Helvetica, sans-serif; font-size: 11pt; color: rgb(0, 0, 0);"><br=
+>
+</span><img src=3D"http://www.acornlife.ie/uploads/images/ALEmailBanner.jpg=
+">
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+11pt; FONT-FAMILY: 'Calibri'"><br>
+</span><span style=3D"FONT-SIZE: 8pt">Please consider the environment befor=
+e printing this email.</span></p>
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+8pt"></span>&nbsp;</p>
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+8pt">This e-mail and all information contained in it is confidential and ma=
+y be</span></p>
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+8pt">legally privileged. If you are not the intended recipient, your access=
+ to this</span></p>
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+8pt">e-mail is unauthorized. Any use, dissemination, distribution, publicat=
+ion or</span></p>
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+8pt">copying by you of this e-mail or any of the information contained in i=
+t is</span></p>
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+8pt">prohibited and may be unlawful. The content of this e-mail and any att=
+achments</span></p>
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+8pt">sent with it may have been altered without the consent or knowledge of=
+ the</span></p>
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+8pt">author. If you have received this email in error please immediately ph=
+one</span></p>
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+8pt">Technical Services, Acorn Life DAC at 091-535700 and delete this e-mai=
+l from</span></p>
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+8pt">your system. Your co-operation is appreciated.</span></p>
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+8pt"></span>&nbsp;</p>
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+8pt">Registered in Ireland No 128945 Registered Office: St Augustine Street=
+,</span></p>
+<p style=3D"MARGIN-TOP: 0pt; MARGIN-BOTTOM: 0pt"><span style=3D"FONT-SIZE: =
+8pt">Galway. Acorn Life DAC is regulated by the Central Bank of Ireland.</s=
+pan></p>
+<p>Please see our Privacy Statement <a href=3D"https://acornlife.ie/uploads=
+//Acorn%20Life%20Privacy%20Statement%20March%2022.pdf">
+here</a>.</p>
+</body>
+</html>
+
+--_000_DU4PR04MB10983C361D32ADE6B0C1A5D6F81EC2DU4PR04MB10983eu_--

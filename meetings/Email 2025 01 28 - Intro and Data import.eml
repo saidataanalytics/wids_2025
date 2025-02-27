@@ -1,0 +1,727 @@
+MIME-Version: 1.0
+Date: Tue, 28 Jan 2025 14:46:14 +0000
+References: <DU4PR04MB10983C361D32ADE6B0C1A5D6F81EC2@DU4PR04MB10983.eurprd04.prod.outlook.com>
+	<DU2PR03MB10045ECC564B0CD9C0A7205D993EF2@DU2PR03MB10045.eurprd03.prod.outlook.com>
+In-Reply-To: <DU2PR03MB10045ECC564B0CD9C0A7205D993EF2@DU2PR03MB10045.eurprd03.prod.outlook.com>
+Message-ID: <CAK_uNpma+6OSJQAAAvRKjOo2iAjoOSe6B2SpkLw=rwHQ-x6e=g@mail.gmail.com>
+Subject: Re: Free Online Learning Material on Kaggle
+From: Zaupper Bence <zaupperbence@gmail.com>
+To: Alan McDonagh <Alan.McDonagh@milliman.com>
+Cc: Jennifer Loftus <jennifer.loftus@acornlife.ie>, 
+	"iris.berthier@greenval-insurance.ie" <iris.berthier@greenval-insurance.ie>, 
+	"eimear.oneill@hotmail.com" <eimear.oneill@hotmail.com>, =?UTF-8?Q?McGuire=2C_Gr=C3=A1inne?= <grainne.mcguire@optum.com>, 
+	Brian Cunningham <bjcunningham@gmail.com>, Ger Bradley <ger@about-recruitment.ie>, 
+	"Cecilia.Cheuk@wtwco.com" <Cecilia.Cheuk@wtwco.com>, 
+	"orla.crawley@reitighltd.com" <orla.crawley@reitighltd.com>, Denise Collins <niseyhome@yahoo.ie>, 
+	"Shauna.Rowley@mercer.com" <Shauna.Rowley@mercer.com>, "deoregan@hotmail.com" <deoregan@hotmail.com>, 
+	"siobhanobyrne@gmail.com" <siobhanobyrne@gmail.com>, "lconnolly108@gmail.com" <lconnolly108@gmail.com>, 
+	"nashechibanda@hotmail.co.uk" <nashechibanda@hotmail.co.uk>, 
+	"Catherine.Costello@canadalifere.ie" <Catherine.Costello@canadalifere.ie>, 
+	"caolanbarrett@hotmail.com" <caolanbarrett@hotmail.com>, 
+	"amcdonnell1997@gmail.com" <amcdonnell1997@gmail.com>, Marie Finn <Marie.Finn@acornlife.ie>, 
+	Eimear <Eimear.ONeill@canadalife.de>, Laura Connolly <lauralovesprince@gmail.com>, 
+	Sean <Sean.Quinlivan@canadalifere.ie>, Ada Bowler <Ada.Bowler@milliman.com>, 
+	=?UTF-8?Q?Rebecca_O=E2=80=99Mahoney?= <Rebecca.OMahoney@milliman.com>
+Content-Type: multipart/alternative; boundary="0000000000003b12c8062cc5411e"
+
+--0000000000003b12c8062cc5411e
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Thanks Alan and Jennifer,
+
+There are definitely plenty of resources and tools out there and we covered
+many of them in the first session.
+
+On the other hand, I am just cautious that this is a busy period of the
+year and most of participants have a limited amount of time each week. To
+help all of you focus your efforts I outlined below proposed tasks to
+complete over the next couple of weeks.- Iassumed that you have spare 2-3
+hours per week and that you need to pick up Python coding skills on the way=
+.
+
+*This week ( ~2 hours in total)*
+
+   1. Sign up for the Datathon following the 3 steps in my previous email
+   2. Review the description of the Datathon - including the Overview and
+   Data sections on the competition page    WiDS Datathon 2025 | Kaggle
+   <https://www.kaggle.com/competitions/widsdatathon2025>    (~20 mins)
+   3. Watch the introduction video shared by Alan for more background WiDS
+   2025 Global Datathon Workshop #1: Introduction to the Challenge and Data=
+set
+   <https://www.youtube.com/watch?v=3DLp-4rtCEVKY>   (17 mins)
+   4. Watch the video on data preprocessing shared by Alan - we will focus
+   on this on the next session WiDS 2025 Global Datathon Workshop #2:
+   Dataset Preprocessing and Preparation
+   <https://www.youtube.com/watch?v=3DgicfuCLuosA&t=3D474s>   (57 mins)
+   5. Visit the code shared by one of the participants covering the
+   end-to-end process from data to submission - these are in the Code / All
+   section -  ( WiDS Datathon 2025 ADHD Analysis Notebook
+   <https://www.kaggle.com/code/bencezaupper/wids-datathon-2025-adhd-analys=
+is-notebook/notebook>
+)
+   and press "Copy & Edit" - this will copy over the notebook to Code / You=
+r
+   work and run it (~10 mins)
+   6. Review steps 1 - 3  of the process in 5) and if you do not understand
+   the Python code, ask help from ChatGPT via a prompt like this:   "Explai=
+n
+   what this Python code is doing: ..."    ( ~15 mins)
+
+If you have more time, you can change some of the hyperparameters of the
+notebook mentioned in 5) - this is in the Code / Your work section now -
+and see the impact by re-running the code. You can do this by just clicking
+on the play (triangle) button in the Jupyter notebook, it will show the
+updated accuracy (F1) score and you can check if this improved (=3Dincrease=
+d)
+vs.the original or not.
+
+*Next week ( ~3 hours in total)*
+
+   1. Learn Python basics or refresh your knowledge by doing modules 1-3
+   (out of 7) of the Python course on Kaggle - Learn Python | Kaggle
+   <https://www.kaggle.com/learn/python>   (  ~2 hours)
+   2. Analyse the two smaller training input datasets
+   ( TRAIN_CATEGORICAL_METADATA.xlsx and TRAIN_QUANTITATIVE_METADATA.xlsx) =
+and
+   check if there are any missing values. Use the Data Dictionary.xlsx file
+   for explanation of data fields ( ~20 mins)
+   3. Analyse the training output dataset - this shows the gender of
+   patients (female =3D 1) and if they have ADHD (yes =3D 1) - and compare =
+with
+   the input datasets in 2) to see if you can spot any correlations - e.g. =
+are
+   children of a certain race, eduction level or older age at scan more lik=
+ely
+   to have ADHD? ( ~40 mins)
+
+If you have more time, you can do the other modules of the Python course
+(4-7)  - this should take another 3 hours - or you can also calculate the
+correlation between variables (from both inputs and outputs mentioned above
+in 2) and 3) )  - but this is not essential.
+
+We will cover data import and preprocessing in more detail in the next
+session. We can cover other topics later (e.g. the larger training input
+data including MRI scans and how to shrink it, machine learning models for
+classification, test vs. training data, cross-validation etc.).
+
+I hope you find this helpful. Happy coding :)  - any questions in the
+meanwhile, please drop an email here.
+
+Best regards
+Bence
+
+
+
+On Tue, 28 Jan 2025 at 09:05, Alan McDonagh <Alan.McDonagh@milliman.com>
+wrote:
+
+> Hi All
+>
+>
+>
+> WiDS has uploaded two workshops for the 2025 datathon to YouTube; these
+> are a good starting point for anybody who was unable to attend yesterday=
+=E2=80=99s
+> study group:
+>
+>    - WiDS 2025 Global Datathon Workshop #1: Introduction to the Challenge
+>    and Dataset <https://www.youtube.com/watch?v=3DLp-4rtCEVKY>
+>    - WiDS 2025 Global Datathon Workshop #2: Dataset Preprocessing and
+>    Preparation <https://www.youtube.com/watch?v=3DgicfuCLuosA&t=3D474s>
+>
+>
+>
+> Best Regards,
+>
+>
+>
+> *Alan McDonagh, *FSAI, CERA
+>
+> Senior Actuarial Manager
+>
+> Pronouns: He/Him
+>
+>
+>
+> *Milliman | Solutions for a world at risk=E2=84=A2*
+>
+> 7 Grand Canal, Grand Canal Street Lower
+>
+> Dublin 2, D02 KW81
+> Ireland
+>
+>
+>
+> +353 1 647 5531 <+35316475531> Office
+>
+>
+>
+> *milliman.ie* <https://ie.milliman.com/en-gb/> | *linkedin*
+> <https://www.linkedin.com/in/alan-mcdonagh/>
+>
+>
+>
+> Information on how we use personal data and about how data subject rights
+> can be exercised is available on our website
+> https://ie.milliman.com/en-gb/privacy-policy. As a controller of personal
+> data, we take great care over how we collect, use and protect that
+> information. If you have any queries in relation to our processing of
+> personal data you can contact us at data.protection@milliman.com.
+>
+> Milliman Limited, registered in Ireland as a private company limited by
+> shares, registered under company number 239204, registered office at 7,
+> Grand Canal, Grand Canal Street Lower, D02 KW81, Dublin 2, with VAT reg n=
+o:
+> IE 8239204S, and Directors: Mike Claffey, Mary Clare (USA), Dermot Corry,
+> Kevin Manning, Ulrich Starigk (Germany).
+>
+> The contents of this email are subject to the reliances and limitation
+> included in the terms of business that are associated with our letter of
+> engagement / statement of work / transaction agreement / other relevant
+> agreement including, but not limited to, the requirements relating to
+> distribution of this email to third parties.
+>
+>
+>
+>
+>
+> *From:* Jennifer Loftus <jennifer.loftus@acornlife.ie>
+> *Sent:* 27 January 2025 13:59
+> *To:* iris.berthier@greenval-insurance.ie; eimear.oneill@hotmail.com;
+> Zaupper Bence <zaupperbence@gmail.com>; Alan McDonagh <
+> Alan.McDonagh@milliman.com>; McGuire, Gr=C3=A1inne <grainne.mcguire@optum=
+.com>;
+> Brian Cunningham <bjcunningham@gmail.com>; Ger Bradley <
+> ger@about-recruitment.ie>; Cecilia.Cheuk@wtwco.com;
+> orla.crawley@reitighltd.com; Denise Collins <niseyhome@yahoo.ie>;
+> Shauna.Rowley@mercer.com; deoregan@hotmail.com; siobhanobyrne@gmail.com;
+> lconnolly108@gmail.com; nashechibanda@hotmail.co.uk;
+> Catherine.Costello@canadalifere.ie; caolanbarrett@hotmail.com;
+> amcdonnell1997@gmail.com; Marie Finn <Marie.Finn@acornlife.ie>; Eimear
+> <Eimear.ONeill@CanadaLife.de>; Laura Connolly <lauralovesprince@gmail.com=
+>;
+> Sean <Sean.Quinlivan@canadalifere.ie>
+> *Subject:* Free Online Learning Material on Kaggle
+>
+>
+>
+>
+>
+> *CAUTION:* This email originated from outside of Milliman. Do not click
+> links or open attachments unless you recognize the sender and know the
+> content is safe.
+>
+>
+>
+>
+>
+> Hi all,
+>
+>
+>
+> Below is a link to free online data science learning material on Kaggle.
+>
+>
+>
+> Learn Python, Data Viz, Pandas & More | Tutorials | Kaggle
+> <https://www.kaggle.com/learn>
+>
+>
+>
+> Regards,
+>
+> Jennifer
+>
+>
+>
+>
+>
+> Jennifer Loftus | Executive Director | Chief Risk Officer | Head of
+> Actuarial Function | Acorn Life | St. Augustine Street | Galway
+>
+> T: 091 535739  |mailto:jennifer.loftus@acornlife.ie
+> <jennifer.loftus@acornlife.ie>| http://www.acornlife.ie
+>
+>
+>
+>
+>
+>
+>
+> Please consider the environment before printing this email.
+>
+>
+>
+> This e-mail and all information contained in it is confidential and may b=
+e
+>
+> legally privileged. If you are not the intended recipient, your access to
+> this
+>
+> e-mail is unauthorized. Any use, dissemination, distribution, publication
+> or
+>
+> copying by you of this e-mail or any of the information contained in it i=
+s
+>
+> prohibited and may be unlawful. The content of this e-mail and any
+> attachments
+>
+> sent with it may have been altered without the consent or knowledge of th=
+e
+>
+> author. If you have received this email in error please immediately phone
+>
+> Technical Services, Acorn Life DAC at 091-535700 and delete this e-mail
+> from
+>
+> your system. Your co-operation is appreciated.
+>
+>
+>
+> Registered in Ireland No 128945 Registered Office: St Augustine Street,
+>
+> Galway. Acorn Life DAC is regulated by the Central Bank of Ireland.
+>
+> Please see our Privacy Statement here
+> <https://acornlife.ie/uploads/Acorn%20Life%20Privacy%20Statement%20March%=
+2022.pdf>
+> .
+>
+> ******************************************************************
+> This message is for the intended recipient only and may contain
+> confidential
+> or proprietary information. If you receive this message in error, please
+> immediately delete it, destroy all copies of it and notify the sender. If
+> you
+> are not the intended recipient, any disclosure, copying, distribution or
+> any
+> action taken or omitted to be taken in reliance on it, is prohibited and
+> may be
+> unlawful. Unless indicated to the contrary in this email or its
+> attachments,
+> this communication neither constitutes professional advice nor does it fo=
+rm
+> any actuarial opinion upon which reliance may be made by the addressee
+> or any other party. We take reasonable precautions to ensure our emails
+> are virus free. However, we don=E2=80=99t accept any claim or responsibil=
+ity for
+> any
+> virus transmitted despite such precautions and recommend that you subject
+> any incoming email to your own virus checking procedure.
+>
+> Milliman Ltd. is registered in Ireland as a private company limited by
+> shares, registration no. 239204.
+> Registered office: 7 Grand Canal, Grand Canal Street Lower, Dublin 2, D02
+> KW81, Ireland.
+> ******************************************************************
+>
+
+--0000000000003b12c8062cc5411e
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div di=
+r=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"ltr"><div dir=3D"lt=
+r"><div dir=3D"ltr">Thanks Alan and Jennifer,=C2=A0<div><br></div><div>Ther=
+e are definitely plenty of resources and tools out there and we covered man=
+y of them in the first session.</div><div><br></div><div>On the other hand,=
+ I am just cautious that this is a busy period of the year and most of part=
+icipants have a limited amount of time each week. To help all of you focus =
+your efforts I outlined below proposed tasks to complete over the next coup=
+le of weeks.- Iassumed that you have spare 2-3 hours per week and that you =
+need to pick up Python coding skills on the way.</div><div><br></div><div><=
+b><u>This week ( ~2 hours in total)</u></b></div><div><ol><li>Sign up for t=
+he Datathon following the 3 steps in my previous=C2=A0email</li><li>Review =
+the description of the Datathon - including the Overview and Data sections =
+on the competition page=C2=A0 =C2=A0=C2=A0<a href=3D"https://www.kaggle.com=
+/competitions/widsdatathon2025">WiDS Datathon 2025 | Kaggle</a>=C2=A0 =C2=
+=A0 (~20 mins)</li><li class=3D"m_6986652951876591589MsoListParagraph" styl=
+e=3D"margin-left:0cm"><span style=3D"font-size:11pt">Watch the introduction=
+ video shared by Alan for more background=C2=A0<a href=3D"https://www.youtu=
+be.com/watch?v=3DLp-4rtCEVKY" target=3D"_blank">WiDS 2025 Global Datathon W=
+orkshop #1: Introduction to the Challenge and Dataset</a>=C2=A0 =C2=A0(17 m=
+ins)</span></li><li class=3D"m_6986652951876591589MsoListParagraph" style=
+=3D"margin-left:0cm"><span style=3D"font-size:11pt">Watch the video on data=
+ preprocessing shared by Alan - we will focus on this on the next session=
+=C2=A0<a href=3D"https://www.youtube.com/watch?v=3DgicfuCLuosA&amp;t=3D474s=
+" target=3D"_blank">WiDS 2025 Global Datathon Workshop #2: Dataset Preproce=
+ssing and Preparation</a>=C2=A0 =C2=A0(57 mins)</span></li><li>Visit the co=
+de shared by one of the participants covering the end-to-end process from d=
+ata to submission - these are in the Code / All section -=C2=A0 (=C2=A0<a h=
+ref=3D"https://www.kaggle.com/code/bencezaupper/wids-datathon-2025-adhd-ana=
+lysis-notebook/notebook">WiDS Datathon 2025 ADHD Analysis Notebook</a>=C2=
+=A0) and press &quot;Copy &amp; Edit&quot; - this will copy over the notebo=
+ok to Code / Your work and run it (~10 mins)</li><li>Review steps 1 - 3=C2=
+=A0 of the process in 5) and if you do not understand the Python code, ask =
+help from ChatGPT via a prompt like this:=C2=A0 =C2=A0&quot;Explain what th=
+is Python code is doing: ...&quot;=C2=A0 =C2=A0 ( ~15 mins)</li></ol><div>I=
+f you have more time, you can change some of the hyperparameters of the not=
+ebook mentioned in 5) - this is in the Code / Your work section now - and s=
+ee the impact by re-running the code. You can do this by just clicking on t=
+he play (triangle) button in the Jupyter notebook, it will show the updated=
+ accuracy (F1) score and you can check if this improved (=3Dincreased) vs.t=
+he original or not.</div><div><br></div><div><b><u>Next week ( ~3 hours in =
+total)</u></b></div><div><ol><li>Learn Python basics or refresh your knowle=
+dge by doing modules 1-3 (out of 7) of the Python course on Kaggle -=C2=A0<=
+a href=3D"https://www.kaggle.com/learn/python">Learn Python | Kaggle</a>=C2=
+=A0 =C2=A0(=C2=A0 ~2 hours)</li><li>Analyse the two smaller training input =
+datasets (=C2=A0TRAIN_CATEGORICAL_METADATA.xlsx and=C2=A0TRAIN_QUANTITATIVE=
+_METADATA.xlsx) and check if there are any missing values. Use the=C2=A0Dat=
+a Dictionary.xlsx file for explanation of data fields ( ~20 mins)</li><li>A=
+nalyse the training output dataset - this shows the gender of patients (fem=
+ale =3D 1) and if they have ADHD (yes =3D 1) - and compare with the input d=
+atasets in 2) to see if you can spot any correlations - e.g. are children o=
+f a certain race, eduction level or older age at scan more likely to have A=
+DHD? ( ~40 mins)</li></ol><div>If you have more time, you can do the other =
+modules of the Python course (4-7)=C2=A0 - this should take another 3 hours=
+ - or you can also calculate the correlation between variables (from both i=
+nputs and outputs mentioned above in 2) and 3) )=C2=A0 - but this is not es=
+sential.=C2=A0=C2=A0</div></div><div><br></div><div>We will cover data impo=
+rt and preprocessing in more detail in the next session. We can cover other=
+ topics later (e.g. the larger training input data including MRI scans and =
+how to shrink it, machine learning models for classification, test vs. trai=
+ning data, cross-validation etc.).</div><div><br></div><div>I hope you find=
+ this helpful. Happy coding :)=C2=A0 - any questions in the meanwhile, plea=
+se drop an email here.=C2=A0</div><div><br></div><div>Best regards</div><di=
+v>Bence=C2=A0</div><div><br></div><div><br></div></div></div></div><br><div=
+ class=3D"gmail_quote gmail_quote_container"><div dir=3D"ltr" class=3D"gmai=
+l_attr">On Tue, 28 Jan 2025 at 09:05, Alan McDonagh &lt;<a href=3D"mailto:A=
+lan.McDonagh@milliman.com">Alan.McDonagh@milliman.com</a>&gt; wrote:<br></d=
+iv><blockquote class=3D"gmail_quote" style=3D"margin:0px 0px 0px 0.8ex;bord=
+er-left:1px solid rgb(204,204,204);padding-left:1ex"><div class=3D"msg18948=
+28191121249660">
+
+
+
+
+
+<div lang=3D"EN-GB" style=3D"overflow-wrap: break-word;">
+<div class=3D"m_6986652951876591589WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt">Hi All<u></u><u></u><=
+/span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt"><u></u>=C2=A0<u></u><=
+/span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt">WiDS has uploaded two=
+ workshops for the 2025 datathon to YouTube; these are a good starting poin=
+t for anybody who was unable to attend yesterday=E2=80=99s study group:<u><=
+/u><u></u></span></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"m_6986652951876591589MsoListParagraph" style=3D"margin-left:0c=
+m"><span style=3D"font-size:11pt"><a href=3D"https://www.youtube.com/watch?=
+v=3DLp-4rtCEVKY" target=3D"_blank">WiDS 2025 Global Datathon Workshop #1: I=
+ntroduction to the Challenge
+ and Dataset</a><u></u><u></u></span></li><li class=3D"m_698665295187659158=
+9MsoListParagraph" style=3D"margin-left:0cm"><span style=3D"font-size:11pt"=
+><a href=3D"https://www.youtube.com/watch?v=3DgicfuCLuosA&amp;t=3D474s" tar=
+get=3D"_blank">WiDS 2025 Global Datathon Workshop #2: Dataset Preprocessing
+ and Preparation</a><u></u><u></u></span></li></ul>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt"><u></u>=C2=A0<u></u><=
+/span></p>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:10pt;font-family:Arial,sans=
+-serif;color:rgb(36,36,36)">Best Regards,<u></u><u></u></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10pt;font-family:Arial,s=
+ans-serif;color:rgb(36,36,36)"><u></u>=C2=A0<u></u></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10pt;font-family:Arial,s=
+ans-serif;color:rgb(36,36,36)">Alan McDonagh,
+</span></b><span style=3D"font-size:10pt;font-family:Arial,sans-serif;color=
+:rgb(36,36,36)">FSAI, CERA</span><span style=3D"font-family:Arial,sans-seri=
+f"><u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.4pt"><span style=3D"font-siz=
+e:9pt;font-family:Arial,sans-serif;color:rgb(36,36,36)">Senior Actuarial Ma=
+nager</span><span style=3D"font-family:Arial,sans-serif"><u></u><u></u></sp=
+an></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.4pt"><span style=3D"font-siz=
+e:9pt;font-family:Arial,sans-serif;color:rgb(36,36,36)">Pronouns:
+<span style=3D"background:white">He/Him</span></span><span style=3D"font-fa=
+mily:Arial,sans-serif"><u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.4pt"><span style=3D"font-siz=
+e:9pt;font-family:Arial,sans-serif;color:rgb(36,36,36)">=C2=A0</span><span =
+style=3D"font-family:Arial,sans-serif"><u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.4pt"><b><span style=3D"font-=
+size:9pt;font-family:Arial,sans-serif;color:rgb(36,36,36)">Milliman | Solut=
+ions for a world at risk=E2=84=A2<u></u><u></u></span></b></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.4pt"><span style=3D"font-siz=
+e:9pt;font-family:Arial,sans-serif;color:rgb(36,36,36)">7 Grand Canal, Gran=
+d Canal Street Lower</span><span style=3D"font-family:Arial,sans-serif"><u>=
+</u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.4pt"><span style=3D"font-siz=
+e:9pt;font-family:Arial,sans-serif;color:rgb(36,36,36)">Dublin 2, D02 KW81<=
+br>
+Ireland</span><span style=3D"font-family:Arial,sans-serif"><u></u><u></u></=
+span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.4pt"><span style=3D"font-siz=
+e:9pt;font-family:Arial,sans-serif;color:rgb(36,36,36)">=C2=A0</span><span =
+style=3D"font-family:Arial,sans-serif"><u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.4pt"><span><a href=3D"tel:+3=
+5316475531" target=3D"_blank"><span style=3D"font-size:9pt;font-family:Aria=
+l,sans-serif;color:rgb(0,112,192);background:white">+353 1 647 5531</span><=
+/a></span><span style=3D"font-size:9pt;font-family:Arial,sans-serif;color:b=
+lack;background:white">
+ Office</span><span style=3D"font-family:Arial,sans-serif"><u></u><u></u></=
+span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.4pt"><span style=3D"font-siz=
+e:9pt;font-family:Arial,sans-serif;color:rgb(36,36,36)">=C2=A0</span><span =
+style=3D"font-family:Arial,sans-serif"><u></u><u></u></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.4pt"><span><a href=3D"https:=
+//ie.milliman.com/en-gb/" target=3D"_blank"><b><span style=3D"font-size:9pt=
+;font-family:Arial,sans-serif;color:rgb(0,112,192)">milliman.ie</span></b><=
+/a></span><b><span style=3D"font-size:9pt;font-family:Arial,sans-serif;colo=
+r:rgb(0,120,212)">=C2=A0</span></b><span style=3D"font-size:9pt;font-family=
+:Arial,sans-serif;color:rgb(198,201,202)">|</span><b><span style=3D"font-si=
+ze:9pt;font-family:Arial,sans-serif;color:rgb(0,120,212)">=C2=A0</span></b>=
+<span><a href=3D"https://www.linkedin.com/in/alan-mcdonagh/" title=3D"https=
+://www.linkedin.com/in/alan-mcdonagh/" target=3D"_blank"><b><span style=3D"=
+font-size:9pt;font-family:Arial,sans-serif;color:rgb(0,112,192)">linkedin</=
+span></b></a></span><span style=3D"font-family:Arial,sans-serif"><u></u><u>=
+</u></span></p>
+<p class=3D"MsoNormal" style=3D"line-height:14.4pt"><b><span style=3D"font-=
+size:9pt;font-family:Arial,sans-serif;color:rgb(0,120,212)">=C2=A0</span></=
+b><span style=3D"font-family:Arial,sans-serif"><u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:7pt;font-family:Arial,sans-=
+serif;color:rgb(36,36,36)">Information on how we use personal data and abou=
+t how data subject rights can be exercised is available on our website
+</span><span><a href=3D"https://ie.milliman.com/en-gb/privacy-policy" targe=
+t=3D"_blank"><span style=3D"font-size:7pt;font-family:Arial,sans-serif;colo=
+r:rgb(5,99,193)">https://ie.milliman.com/en-gb/privacy-policy</span></a></s=
+pan><span style=3D"font-size:7pt;font-family:Arial,sans-serif;color:rgb(36,=
+36,36)">.
+ As a controller of personal data, we take great care over how we collect, =
+use and protect that information. If you have any queries in relation to ou=
+r processing of personal data you can contact us at
+</span><span><a href=3D"mailto:data.protection@milliman.com" target=3D"_bla=
+nk"><span style=3D"font-size:7pt;font-family:Arial,sans-serif;color:rgb(5,9=
+9,193)">data.protection@milliman.com</span></a></span><span style=3D"font-s=
+ize:7pt;font-family:Arial,sans-serif;color:rgb(36,36,36)">.</span><span sty=
+le=3D"font-family:Arial,sans-serif"><u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:7pt;font-family:Arial,sans-=
+serif;color:rgb(36,36,36)">Milliman Limited, registered in Ireland as a pri=
+vate company limited by shares, registered under company number 239204, reg=
+istered
+ office at 7, Grand Canal, Grand Canal Street Lower, D02 KW81, Dublin 2, wi=
+th VAT reg no: IE 8239204S, and Directors: Mike Claffey, Mary Clare (USA), =
+Dermot Corry, Kevin Manning, Ulrich Starigk (Germany).=C2=A0</span><span st=
+yle=3D"font-family:Arial,sans-serif"><u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:7pt;font-family:Arial,sans-=
+serif;color:rgb(36,36,36)">The contents of this email are subject to the re=
+liances and limitation included in the terms of business that are associate=
+d with
+ our letter of engagement / statement of work / transaction agreement / oth=
+er relevant agreement including, but not limited to, the requirements relat=
+ing to distribution of this email to third parties.</span><span style=3D"fo=
+nt-family:Arial,sans-serif"><u></u><u></u></span></p>
+<p class=3D"MsoNormal"><span><u></u>=C2=A0<u></u></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt"><u></u>=C2=A0<u></u><=
+/span></p>
+<div>
+<div style=3D"border-right:none;border-bottom:none;border-left:none;border-=
+top:1pt solid rgb(225,225,225);padding:3pt 0cm 0cm">
+<p class=3D"MsoNormal"><b><span lang=3D"EN-US" style=3D"font-size:11pt;font=
+-family:Calibri,sans-serif">From:</span></b><span lang=3D"EN-US" style=3D"f=
+ont-size:11pt;font-family:Calibri,sans-serif"> Jennifer Loftus &lt;<a href=
+=3D"mailto:jennifer.loftus@acornlife.ie" target=3D"_blank">jennifer.loftus@=
+acornlife.ie</a>&gt;
+<br>
+<b>Sent:</b> 27 January 2025 13:59<br>
+<b>To:</b> <a href=3D"mailto:iris.berthier@greenval-insurance.ie" target=3D=
+"_blank">iris.berthier@greenval-insurance.ie</a>; <a href=3D"mailto:eimear.=
+oneill@hotmail.com" target=3D"_blank">eimear.oneill@hotmail.com</a>; Zauppe=
+r Bence &lt;<a href=3D"mailto:zaupperbence@gmail.com" target=3D"_blank">zau=
+pperbence@gmail.com</a>&gt;; Alan McDonagh &lt;<a href=3D"mailto:Alan.McDon=
+agh@milliman.com" target=3D"_blank">Alan.McDonagh@milliman.com</a>&gt;; McG=
+uire, Gr=C3=A1inne &lt;<a href=3D"mailto:grainne.mcguire@optum.com" target=
+=3D"_blank">grainne.mcguire@optum.com</a>&gt;; Brian Cunningham &lt;<a href=
+=3D"mailto:bjcunningham@gmail.com" target=3D"_blank">bjcunningham@gmail.com=
+</a>&gt;; Ger Bradley
+ &lt;<a href=3D"mailto:ger@about-recruitment.ie" target=3D"_blank">ger@abou=
+t-recruitment.ie</a>&gt;; <a href=3D"mailto:Cecilia.Cheuk@wtwco.com" target=
+=3D"_blank">Cecilia.Cheuk@wtwco.com</a>; <a href=3D"mailto:orla.crawley@rei=
+tighltd.com" target=3D"_blank">orla.crawley@reitighltd.com</a>; Denise Coll=
+ins &lt;<a href=3D"mailto:niseyhome@yahoo.ie" target=3D"_blank">niseyhome@y=
+ahoo.ie</a>&gt;; <a href=3D"mailto:Shauna.Rowley@mercer.com" target=3D"_bla=
+nk">Shauna.Rowley@mercer.com</a>; <a href=3D"mailto:deoregan@hotmail.com" t=
+arget=3D"_blank">deoregan@hotmail.com</a>; <a href=3D"mailto:siobhanobyrne@=
+gmail.com" target=3D"_blank">siobhanobyrne@gmail.com</a>; <a href=3D"mailto=
+:lconnolly108@gmail.com" target=3D"_blank">lconnolly108@gmail.com</a>; <a h=
+ref=3D"mailto:nashechibanda@hotmail.co.uk" target=3D"_blank">nashechibanda@=
+hotmail.co.uk</a>; <a href=3D"mailto:Catherine.Costello@canadalifere.ie" ta=
+rget=3D"_blank">Catherine.Costello@canadalifere.ie</a>;
+ <a href=3D"mailto:caolanbarrett@hotmail.com" target=3D"_blank">caolanbarre=
+tt@hotmail.com</a>; <a href=3D"mailto:amcdonnell1997@gmail.com" target=3D"_=
+blank">amcdonnell1997@gmail.com</a>; Marie Finn &lt;<a href=3D"mailto:Marie=
+.Finn@acornlife.ie" target=3D"_blank">Marie.Finn@acornlife.ie</a>&gt;; Eime=
+ar &lt;Eimear.ONeill@CanadaLife.de&gt;; Laura Connolly &lt;<a href=3D"mailt=
+o:lauralovesprince@gmail.com" target=3D"_blank">lauralovesprince@gmail.com<=
+/a>&gt;; Sean &lt;<a href=3D"mailto:Sean.Quinlivan@canadalifere.ie" target=
+=3D"_blank">Sean.Quinlivan@canadalifere.ie</a>&gt;<br>
+<b>Subject:</b> Free Online Learning Material on Kaggle<u></u><u></u></span=
+></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><u></u>=C2=A0<u></u></p>
+<div>
+<table border=3D"1" cellspacing=3D"0" cellpadding=3D"0" width=3D"100%" styl=
+e=3D"width:100%;background:white;border-collapse:collapse;border:none">
+<tbody>
+<tr>
+<td width=3D"5%" style=3D"width:5%;border-top:1.5pt solid black;border-bott=
+om:1.5pt solid black;border-left:1.5pt solid black;border-right:none;paddin=
+g:0.75pt">
+<p class=3D"MsoNormal"><span style=3D"color:black">=C2=A0</span><u></u><u><=
+/u></p>
+</td>
+<td style=3D"border-top:1.5pt solid black;border-left:none;border-bottom:1.=
+5pt solid black;border-right:none;padding:0.75pt 18.75pt" id=3D"m_698665295=
+1876591589MillimanBannerTextCell">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:9pt;font-family:Arial,sa=
+ns-serif;color:black">CAUTION:</span></b><span style=3D"color:black">
+</span><span style=3D"font-size:8.5pt;font-family:Arial,sans-serif;color:bl=
+ack">This email originated from outside of Milliman. Do not click links or =
+open attachments unless you recognize the sender and know the content is sa=
+fe.</span><span style=3D"color:black">
+</span><u></u><u></u></p>
+</td>
+<td width=3D"5%" style=3D"width:5%;border-top:1.5pt solid black;border-righ=
+t:1.5pt solid black;border-bottom:1.5pt solid black;border-left:none;paddin=
+g:0.75pt" id=3D"m_6986652951876591589MillimanBannerEmptyCell">
+<p class=3D"MsoNormal"><span style=3D"color:black">=C2=A0</span><u></u><u><=
+/u></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12pt"><u></u>=C2=A0<u></u></p=
+>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;color:black">Hi all,<u=
+></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;color:black"><u></u>=
+=C2=A0<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;color:black">Below is =
+a link to free online data science learning material on Kaggle.<u></u><u></=
+u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;color:black"><u></u>=
+=C2=A0<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;color:black"><a href=
+=3D"https://www.kaggle.com/learn" target=3D"_blank">Learn Python, Data Viz,=
+ Pandas &amp; More | Tutorials | Kaggle</a><u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;color:black"><u></u>=
+=C2=A0<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;color:black">Regards,<=
+u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;color:black">Jennifer<=
+u></u><u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;color:black"><u></u>=
+=C2=A0<u></u></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;color:black"><u></u>=
+=C2=A0<u></u></span></p>
+</div>
+<div id=3D"m_6986652951876591589Signature">
+<p><span style=3D"color:rgb(0,32,96)">Jennifer Loftus | Executive Director =
+| Chief Risk Officer | Head of Actuarial Function | Acorn Life | St. August=
+ine Street | Galway</span><u></u><u></u></p>
+<p><span style=3D"font-size:10pt;color:rgb(31,73,125)">T: 091 535739=C2=A0 =
+|</span><span style=3D"font-size:10pt"><a href=3D"mailto:jennifer.loftus@ac=
+ornlife.ie" target=3D"_blank">mailto:jennifer.loftus@acornlife.ie</a><span =
+style=3D"color:rgb(31,73,125)">|
+</span><a href=3D"http://www.acornlife.ie/" target=3D"_blank">http://www.ac=
+ornlife.ie</a></span><u></u><u></u></p>
+<p>=C2=A0<u></u><u></u></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;color:black"><u></u>=
+=C2=A0<u></u></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11pt;color:black"><br>
+</span><img border=3D"0" width=3D"650" height=3D"110" style=3D"width: 6.770=
+8in; height: 1.1458in;" id=3D"m_6986652951876591589_x0000_i1025" src=3D"htt=
+p://www.acornlife.ie/uploads/images/ALEmailBanner.jpg"><u></u><u></u></p>
+<p><span style=3D"font-size:11pt;font-family:Calibri,sans-serif"><br>
+</span><span style=3D"font-size:8pt">Please consider the environment before=
+ printing this email.</span><u></u><u></u></p>
+<p>=C2=A0<u></u><u></u></p>
+<p><span style=3D"font-size:8pt">This e-mail and all information contained =
+in it is confidential and may be</span><u></u><u></u></p>
+<p><span style=3D"font-size:8pt">legally privileged. If you are not the int=
+ended recipient, your access to this</span><u></u><u></u></p>
+<p><span style=3D"font-size:8pt">e-mail is unauthorized. Any use, dissemina=
+tion, distribution, publication or</span><u></u><u></u></p>
+<p><span style=3D"font-size:8pt">copying by you of this e-mail or any of th=
+e information contained in it is</span><u></u><u></u></p>
+<p><span style=3D"font-size:8pt">prohibited and may be unlawful. The conten=
+t of this e-mail and any attachments</span><u></u><u></u></p>
+<p><span style=3D"font-size:8pt">sent with it may have been altered without=
+ the consent or knowledge of the</span><u></u><u></u></p>
+<p><span style=3D"font-size:8pt">author. If you have received this email in=
+ error please immediately phone</span><u></u><u></u></p>
+<p><span style=3D"font-size:8pt">Technical Services, Acorn Life DAC at 091-=
+535700 and delete this e-mail from</span><u></u><u></u></p>
+<p><span style=3D"font-size:8pt">your system. Your co-operation is apprecia=
+ted.</span><u></u><u></u></p>
+<p>=C2=A0<u></u><u></u></p>
+<p><span style=3D"font-size:8pt">Registered in Ireland No 128945 Registered=
+ Office: St Augustine Street,</span><u></u><u></u></p>
+<p><span style=3D"font-size:8pt">Galway. Acorn Life DAC is regulated by the=
+ Central Bank of Ireland.</span><u></u><u></u></p>
+<p>Please see our Privacy Statement <a href=3D"https://acornlife.ie/uploads=
+/Acorn%20Life%20Privacy%20Statement%20March%2022.pdf" target=3D"_blank">
+here</a>.<u></u><u></u></p>
+</div>
+</div>
+<p>****************************************************************** <br>
+This message is for the intended recipient only and may contain confidentia=
+l<br>
+or proprietary information. If you receive this message in error, please<br=
+>
+immediately delete it, destroy all copies of it and notify the sender. If y=
+ou<br>
+are not the intended recipient, any disclosure, copying, distribution or an=
+y<br>
+action taken or omitted to be taken in reliance on it, is prohibited and ma=
+y be<br>
+unlawful. Unless indicated to the contrary in this email or its attachments=
+,<br>
+this communication neither constitutes professional advice nor does it form=
+<br>
+any actuarial opinion upon which reliance may be made by the addressee<br>
+or any other party. We take reasonable precautions to ensure our emails<br>
+are virus free. However, we don=E2=80=99t accept any claim or responsibilit=
+y for any<br>
+virus transmitted despite such precautions and recommend that you subject<b=
+r>
+any incoming email to your own virus checking procedure.<br>
+<br>
+Milliman Ltd. is registered in Ireland as a private company limited by shar=
+es, registration no. 239204.
+<br>
+Registered office: 7 Grand Canal, Grand Canal Street Lower, Dublin 2, D02 K=
+W81, Ireland.<br>
+****************************************************************** </p>
+</div>
+
+</div></blockquote></div></div></div></div></div></div></div></div></div>
+
+--0000000000003b12c8062cc5411e--
