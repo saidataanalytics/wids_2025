@@ -1,15 +1,11 @@
 WIDS Datathon 2025
 
-Notebooks (in the root folder):
+Root folder:
 
-    Sweetviz EDA.ipynb  
-
-        Performs Explanotary Data Analysis (EDA) using the Sweetviz library
-
-    WiDS 2025 - ADHD Classification - end to end process.ipynb
+    WiDS 2025 - ADHD Classification - end to end process - example.ipynb
 
         Master notebook including the end-to-end process
-        It is based on a shared notebook which includes 7 steps - so far steps 1-4 updated
+        It is based on a shared notebook which includes 7 steps
 
         The notebook can be run on:
             Kaggle          Set the run_setting variable on the top to 'kaggle'
@@ -22,10 +18,23 @@ Notebooks (in the root folder):
                             Download the dataset from Kaggle and save it in the data folder
                             Make sure all subfolders and file names are the same as on Kaggle
 
+Notebooks folder:
+
+    Notebooks used for the actual submission on Kaggle:
+    - Individual models (CatBoost, LGBM, Logistic Regression, GNN, CNN)
+    - Final ensemble model
+
+EDA Sweetviz output
+
+    Notebooks used for exploratory data analysis (EDA)
+    EDA output using sweetviz
+    Missing Data Imputation methods
+
+Submission analysis folder:
+
+    Analysis performed on the submission scores with visualisations before the final submission
 
 Other folders:
-
-    eda_sweetviz_outputs    Jupyter notebook generating Sweetviz outputs and HTML output files
 
     meetings                Meeting notes (prepared with Copilot) 
                             Follow up emails including guidance
